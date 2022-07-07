@@ -6,9 +6,14 @@
 
   <groupId>pl.microservices</groupId>
   <artifactId>microservices</artifactId>
-  <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
 
-  <name>microservices</name>
+    <modules>
+        <module>customer</module>
+    </modules>
+
+    <name>microservices</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
